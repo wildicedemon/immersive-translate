@@ -4,8 +4,10 @@
   "description": "__MSG_brandDescription__",
   "version": "1.26.6",
   "default_locale": "en",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' 'wasm-unsafe-eval'; worker-src 'self' blob:; object-src 'self';",
   "background": {
     "scripts": [
+      "tesseract/tesseract.min.js",
       "background.js"
     ]
   },
@@ -14,8 +16,11 @@
     "pdf/index.html",
     "video-subtitle/inject.js",
     "image/inject.js",
+    "tesseract/tesseract.min.js",
     "tesseract/worker.min.js",
     "tesseract/tesseract-core-simd-lstm.wasm.js",
+    "tesseract/lang-data/*",
+    "ocr-service.js",
     "browser-bridge/inject.js",
     "side-panel.html",
     "default_config.json",
@@ -67,9 +72,7 @@
     "translateWithOpenAI": {
       "description": "__MSG_translateWithOpenAI__"
     },
-    "translateWithDeepL": {
-      "description": "__MSG_translateWithDeepL__"
-    },
+
     "translateWithGoogle": {
       "description": "__MSG_translateWithGoogle__"
     },
@@ -79,9 +82,7 @@
     "translateWithGemini": {
       "description": "__MSG_translateWithGemini__"
     },
-    "translateWithBing": {
-      "description": "__MSG_translateWithBing__"
-    },
+
     "translateWithClaude": {
       "description": "__MSG_translateWithClaude__"
     },

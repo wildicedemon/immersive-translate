@@ -31,7 +31,7 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     }
 
-    /* 旋转的Loading图标 */
+    /* Spinning loading icon */
     .loading-spinner {
       width: 40px;
       height: 40px;
@@ -42,7 +42,7 @@
       margin-bottom: 20px;
     }
 
-    /* 旋转动画 */
+    /* Spin animation */
     @keyframes loading-spin {
       0% {
         transform: rotate(0deg);
@@ -53,7 +53,7 @@
       }
     }
 
-    /* Loading文本样式 */
+    /* Loading text styles */
     .loading-text {
       color: #666;
       font-size: 16px;
@@ -62,7 +62,7 @@
       animation: loading-pulse 1.5s ease-in-out infinite;
     }
 
-    /* 文本脉搏动画 */
+    /* Text pulse animation */
     @keyframes loading-pulse {
 
       0%,
@@ -75,7 +75,7 @@
       }
     }
 
-    /* 深色模式适配 */
+    /* Dark mode support */
     @media (prefers-color-scheme: dark) {
       #immersive-translate-status #loading-container {
         background: rgba(18, 18, 18, 0.95);

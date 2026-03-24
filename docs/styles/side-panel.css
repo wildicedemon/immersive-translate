@@ -20,7 +20,7 @@
   top: 0;
 }
 
-/* 翻译结果 */
+/* Translation results */
 .divider {
   width: 100%;
   height: 1px;
@@ -102,7 +102,7 @@
   color: #666;
 }
 
-/* 翻译输入 */
+/* Translation input */
 
 .translate-area {
   display: flex;
@@ -138,12 +138,12 @@
   outline: none;
   background-color: white;
 
-  /* 方案1: 允许用户拖拽调整大小 */
-  resize: vertical; /* 只允许垂直方向调整大小 */
-  min-height: 120px; /* 设置最小高度 */
-  max-height: 400px; /* 设置最大高度，避免过大 */
-  height: 120px; /* 设置初始高度 */
-  width: calc(100% - 24px); /* 减去左右margin的宽度 */
+  /* Option 1: Allow users to resize by dragging */
+  resize: vertical; /* Only allow vertical resizing */
+  min-height: 120px; /* Set minimum height */
+  max-height: 400px; /* Set maximum height to prevent excessive size */
+  height: 120px; /* Set initial height */
+  width: calc(100% - 24px); /* Subtract left and right margin width */
 }
 
 .translate-main textarea::placeholder {
@@ -187,7 +187,7 @@
   flex-shrink: 0;
 }
 
-/* 语言选择 */
+/* Language selection */
 .source-language {
   text-align: left;
   padding-left: 24px;
@@ -230,7 +230,7 @@
   min-width: 0;
 }
 
-/* LangsTag 多选的数量显示 */
+/* LangsTag multi-select count display */
 .langs-tag {
   padding: 4px;
   border-radius: 50%;
@@ -301,7 +301,7 @@
   transform: rotate(45deg);
 }
 
-/* 选择翻译服务 */
+/* Select translation service */
 .select-services {
   display: flex;
   flex-direction: row;
@@ -343,7 +343,7 @@
   color: #666;
 }
 
-/* 底部功能区 */
+/* Bottom action area */
 
 .side-footer {
   display: flex;
@@ -419,7 +419,7 @@
   color: #ea4c89;
 }
 
-/* 奖励中心弹跳动画 */
+/* Reward Center bounce animation */
 @keyframes bounce-reward {
   0%,
   20%,
@@ -499,7 +499,7 @@
   margin-right: 4px;
 }
 
-/* 错误结果 */
+/* Error result */
 .error-result {
   display: flex;
   padding: 8px 12px;
@@ -561,7 +561,7 @@
   margin-right: 4px;
 }
 
-/* 下拉列表 */
+/* Dropdown list */
 
 .imt-search-box {
   display: flex;
@@ -692,7 +692,7 @@
   }
 }
 
-/* 自定义拖拽手柄 (可选使用) */
+/* Custom resize handle (optional) */
 .textarea-resize-handle {
   position: absolute;
   bottom: 0;
@@ -726,13 +726,13 @@
   );
 }
 
-/* 如果使用自定义手柄，需要为 translate-main 添加相对定位 */
+/* If using a custom handle, add relative positioning to translate-main */
 .translate-main {
   border-radius: 12px;
   border: 0.5px solid #ecf0f7;
   display: flex;
   flex-direction: column;
-  position: relative; /* 为了支持自定义拖拽手柄的绝对定位 */
+  position: relative; /* Support absolute positioning of the custom resize handle */
 }
 
 .reward-center-popup {

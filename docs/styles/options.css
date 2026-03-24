@@ -821,7 +821,7 @@ article {
   text-decoration-thickness: 2px;
 }
 
-/* CJK 使用边框样式 */
+/* Use border styling for CJK */
 [data-lang="zh-CN"] .store-container .immersive-translate-link,
 [data-lang="zh-TW"] .store-container .immersive-translate-link,
 [data-lang="ja"] .store-container .immersive-translate-link,
@@ -910,7 +910,7 @@ textarea[disabled] {
   pointer-events: unset;
 }
 
-/* --- 翻译服务设置改版修改 --- */
+/* --- Translation service settings redesign adjustments --- */
 .container-fluid {
   padding: 0 !important;
   column-gap: calc(var(--block-spacing-horizontal) * 2) !important;
@@ -945,7 +945,7 @@ textarea[disabled] {
   width: 100%;
   flex: 1;
   overflow-y: scroll;
-  /* 隐藏滚动条 */
+  /* Hide scrollbar */
   scrollbar-width: none;
   -ms-overflow-style: none;
   &::-webkit-scrollbar {
@@ -1009,7 +1009,7 @@ textarea[disabled] {
   overflow-y: scroll;
   background-color: var(--service-bg);
   width: 100%;
-  /* 隐藏滚动条 */
+  /* Hide scrollbar */
   scrollbar-width: none;
   -ms-overflow-style: none;
   &::-webkit-scrollbar {
@@ -1052,7 +1052,7 @@ textarea[disabled] {
   flex-wrap: wrap;
   gap: 4px;
 
-  /* 隐藏滚动条 */
+  /* Hide scrollbar */
   scrollbar-width: none;
   -ms-overflow-style: none;
   &::-webkit-scrollbar {

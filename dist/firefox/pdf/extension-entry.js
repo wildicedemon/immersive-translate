@@ -21,17 +21,17 @@ function main() {
   }
 
   fetch(filePath).then((response) => {
-    return response.blob();
-  })
+      return response.blob();
+    })
     .then((blob) => {
-      waitIframeLoad().then(function () {
+      waitIframeLoad().then(function() {
         iframe.contentWindow.postMessage({
           type: "pdf-local-file",
           blob: blob,
           fileName: getDecodedFileName(filePath),
         }, "*");
       });
-    }).catch(function (err) {
+    }).catch(function(err) {
       console.error(err);
       restorePdf(filePath);
       hiddenLoading();
@@ -52,7 +52,7 @@ function main() {
 }
 
 function waitIframeLoad() {
-  return new Promise(function (resolve, reject) {
+  return new Promise(function(resolve, reject) {
     if (pdfReady) return resolve();
 
     function listenMessage(event) {
@@ -77,6 +77,7 @@ function listenMessage(event) {
     document.title = data.title;
   }
 }
+
 function hiddenLoading() {
   const ele = document.getElementById("loading");
   if (!ele) return;

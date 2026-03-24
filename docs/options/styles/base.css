@@ -1,8 +1,8 @@
-/** 基础色阶定义 **/
+/** Base color scale definitions **/
 :root,
 #mount[data-theme="light"],
 #mount:not([data-theme="dark"]) {
-  /* 中性灰阶（light） */
+  /* Neutral grayscale (light) */
   --c-00: #000000;
   --c-22: #222222;
   --c-33: #333333;
@@ -14,7 +14,7 @@
   --c-e6: #e6e6e6;
   --c-f5: #f5f5f5;
   --c-ff: #ffffff;
-  /* 品牌主色阶（light） */
+  /* Brand primary scale (light) */
   --p-main: #ea4c89;
   --p-hover: #ec5e95;
   --p-active: #e34a85;
@@ -22,12 +22,12 @@
   --p-disabled: #f4a5c4;
   --p-text-disabled: #f9c9dc;
   --p-weak: #fdedf3;
-  /* Surface 层级（light，TC 填充-1） */
+  /* Surface levels (light, TC fill-1) */
   --s-1: #f3f5f6;
   --s-1-hover: #f6f8f9;
   --s-1-active: #edf1f2;
   --s-1-weak: #fafbfb;
-  /* 输入/边框（light，TC 填充-2） */
+  /* Input/border (light, TC fill-2) */
   --input-bg-base: #fafbfc;
   --input-border: #ecf0f7;
   --input-border-strong: #e0e0e6;
@@ -36,7 +36,7 @@
 
 :root[data-theme="dark"],
 [data-theme="dark"] {
-  /* 中性灰阶（dark） */
+  /* Neutral grayscale (dark) */
   --c-00: #ffffff;
   --c-22: #dbdbdb;
   --c-33: #dbdbdb;
@@ -48,7 +48,7 @@
   --c-e6: #3b3b3b;
   --c-f5: #262626;
   --c-ff: #222222;
-  /* 品牌主色阶（dark） */
+  /* Brand primary scale (dark) */
   --p-main: #e23c7c;
   --p-hover: #ea4c89;
   --p-active: #d5467d;
@@ -56,12 +56,12 @@
   --p-disabled: #7e2f4d;
   --p-text-disabled: #522335;
   --p-weak: #26171d;
-  /* Surface 层级（dark，TC 填充-1） */
+  /* Surface levels (dark, TC fill-1) */
   --s-1: #2d2e2f;
   --s-1-hover: #323434;
   --s-1-active: #202121;
   --s-1-weak: #262627;
-  /* 输入/边框（dark，TC 填充-2） */
+  /* Input/border (dark, TC fill-2) */
   --input-bg-base: #2b2d30;
   --input-border: #3e434b;
   --input-border-strong: #43474b;
@@ -70,7 +70,7 @@
 
 :root,
 #mount [data-theme] {
-  /* 业务/通用变量引用色阶（全局可见，含 Shadow DOM） */
+  /* Business/common variable references (globally visible, including Shadow DOM) */
   --primary: var(--p-main);
   --primary-hover: var(--p-hover);
   --primary-inverse: #fff;
@@ -105,7 +105,7 @@
   --font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
     "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
-  /* PC/H5 兼容的字号、间距、圆角、阴影变量 */
+  /* PC/H5-compatible font size, spacing, radius, and shadow variables */
   --f-12: 12px;
   --f-14: 14px;
   --f-15: 15px;
@@ -131,7 +131,7 @@
   --width-label-md: 56px;
   --shadow-lg: 0 18px 48px rgba(0, 0, 0, 0.12);
 
-  /* 常规变量 */
+  /* General variables */
   --line-height: 1.5;
   --font-weight: 400;
   --font-size: 16px;
@@ -156,11 +156,11 @@
   --switch-color: var(--primary-inverse);
   --switch-checked-background-color: var(--primary);
   --icon-xia: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9IkZyYW1lIj4KPHBhdGggaWQ9IlZlY3RvciIgZD0iTTguMDAyOTEgOS42Nzk4M0wzLjgzMzM5IDUuNTEyMjFMMy4wMjUzOSA2LjMxOTgzTDguMDAzMjkgMTEuMjk1MUwxMi45NzYyIDYuMzE5ODNMMTIuMTY3OSA1LjUxMjIxTDguMDAyOTEgOS42Nzk4M1oiIGZpbGw9IiM4MzgzODMiLz4KPC9nPgo8L3N2Zz4K");
-  /* 兼容旧变量：主色直接引用品牌主色阶 */
+  /* Legacy compatibility: primary color directly references the brand primary scale */
   --primary: var(--p-main);
   --primary-hover: var(--p-hover);
   --primary-inverse: #fff;
-  /* Modal 业务变量引用色阶 */
+  /* Modal business variable references */
   --modal-background: var(--s-1);
   --modal-border: var(--input-border);
   --modal-text: var(--c-22);

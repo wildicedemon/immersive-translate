@@ -24,9 +24,7 @@
     },
     "condition": {
       "urlFilter": "https://httpstat.us/429",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -64,9 +62,7 @@
     },
     "condition": {
       "urlFilter": "https://www2.deepl.com/jsonrpc*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -100,9 +96,7 @@
     },
     "condition": {
       "urlFilter": "https://api.deepl.com/jsonrpc*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -131,9 +125,7 @@
     },
     "condition": {
       "urlFilter": "https://w.deepl.com/oidc/token",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -157,9 +149,7 @@
     },
     "condition": {
       "urlFilter": "https://transmart.qq.com/api/imt",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -183,9 +173,7 @@
     },
     "condition": {
       "urlFilter": "https://translate.volcengine.com/crx/translate/v1/",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -209,9 +197,7 @@
     },
     "condition": {
       "urlFilter": "https://edge.microsoft.com/translate/auth",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -235,9 +221,7 @@
     },
     "condition": {
       "urlFilter": "https://api-edge.cognitive.microsofttranslator.com/translate",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -261,9 +245,7 @@
     },
     "condition": {
       "urlFilter": "https://i.pximg.net/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -287,9 +269,7 @@
     },
     "condition": {
       "urlFilter": "https://img1.newtoki21*.org/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -313,9 +293,7 @@
     },
     "condition": {
       "urlFilter": "https://img1.newtoki21.org/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -339,9 +317,7 @@
     },
     "condition": {
       "urlFilter": "https://2.bp.blogspot.com/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -365,9 +341,7 @@
     },
     "condition": {
       "urlFilter": "https://japanreader.com/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -391,9 +365,7 @@
     },
     "condition": {
       "urlFilter": "https://sl.mangafuna.xyz/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -417,9 +389,7 @@
     },
     "condition": {
       "urlFilter": "https://s*.toonilycdnv2.xyz/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -443,9 +413,7 @@
     },
     "condition": {
       "urlFilter": "https://*.whatsnew*.net/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -469,9 +437,7 @@
     },
     "condition": {
       "urlFilter": "https://image.yymanhua.com/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -495,9 +461,7 @@
     },
     "condition": {
       "urlFilter": "https://*.(klimv1|jfimv2).xyz/images*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -521,9 +485,7 @@
     },
     "condition": {
       "urlFilter": "https://stcdn.manhwato.com/images/manga/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -547,9 +509,7 @@
     },
     "condition": {
       "urlFilter": "https://*.kingwar.cn/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -573,9 +533,7 @@
     },
     "condition": {
       "urlFilter": "https://*.sinaimg.cn/",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -599,9 +557,7 @@
     },
     "condition": {
       "urlFilter": "http://*:11434",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -625,9 +581,7 @@
     },
     "condition": {
       "urlFilter": "http://*:1234",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -651,9 +605,7 @@
     },
     "condition": {
       "urlFilter": "https://*.jfimv2.xyz/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -677,9 +629,7 @@
     },
     "condition": {
       "urlFilter": "https://viewer.championcross.jp",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
@@ -703,9 +653,7 @@
     },
     "condition": {
       "urlFilter": "https://viewer.comic-growl.com/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
+      "resourceTypes": ["xmlhttprequest"],
       "domainType": "thirdParty",
       "initiatorDomains": [
         "cfhamdkdjgoelclgllcoikbckcfpaklj",
